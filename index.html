@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colision de obetos Canvas</title>
+
+     <!-- Agregar los enlaces a Bootstrap CSS y cualquier otro archivo de estilo necesario -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    canvas {
+      display: block;
+      margin: 0 auto;
+      background-color: #ff8;
+    }
+  </style>
+  
 </head>
 <body>
     
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <canvas id="canvas"></canvas>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Agregar los enlaces a Bootstrap JS y cualquier otro archivo de script necesario -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+      <script src="script.js"></script> <!-- Tu archivo de script para manejar la generación y el movimiento de los círculos -->
+    
+
+
     <canvas id="canvas"></canvas>
 
     <script src="main.js"></script>

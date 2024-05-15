@@ -105,7 +105,7 @@ let arrayCircle = [];
 const n = 10; //CAMBIAR A 10
 for (let i = 0; i < n; i++) {
     let randomX = Math.random() * window_width;
-    let randomY = 2500;  //Guardamos los valores por si acaso:  Math.random() * window_height;
+    let randomY = window_height;  //Guardamos los valores por si acaso:  Math.random() * window_height;
     let randomRadius = Math.floor(Math.random() * 100 + 30);
     let randomSpeed = Math.random() * (5 - 1) + 1; // Genera un número aleatorio entre 1 y 5   YYYYY REGRESAR VALORES === = Math.random() * (5 - 1) + 1;
     let myCircle = new Circle(randomX, randomY, randomRadius, "blue", i + 1, randomSpeed); // Color azul como color original
